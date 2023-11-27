@@ -1,0 +1,130 @@
+
+header {
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#arrow {
+    font-size: 0.7em;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#games-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    padding: 0;
+    z-index: 3;
+}
+
+#games-dropdown ul li {
+    padding: 10px;
+}
+
+
+.active .dropdown-menu {
+    display: block;
+}
+
+#games-link {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#comments-container {
+    flex-grow: 1; /* Займати весь доступний вільний простір в контейнері */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    #comment {
+        margin-bottom: 10px;
+    }
+
+        #message-box {
+            flex-grow: 1; /* Займати весь доступний вільний простір в контейнері */
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #message-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        #message-display {
+            margin-top: 20px;
+        }
+ 
+ #submit-btn {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #45a049;
+}
+ 
+footer {
+    background: url(https://img.freepik.com/premium-photo/black-wooden-background_88281-4126.jpg);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0; 
+    width: 100%;
+}
